@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    padding-top: 16px;
+    text-align: center;
+    
+    font-family: 'Abril Fatface', serif;
+    font-size: 2em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parnby img {
+    width: 360px;
+}
+
+.caption {
+    font-family: 'Cabin', sans-serif;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.interact {
+    margin-top: 16px;
+    padding: 4px;
+}
+
+.click-me {
+    font-family: 'Abril Fatface', serif;
+    font-size: 1.5em;
+    border-radius: 2px;
+    padding: 6px;    
+}
+
+.click-me:hover {
+    cursor: pointer;
+    background-color: rgb(161, 233, 255);
+}
+
+.click-me:active {
+    background-color: rgb(103, 157, 173);
+}
